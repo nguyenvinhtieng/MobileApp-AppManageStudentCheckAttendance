@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanlyhoctap">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quản lí học tập"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyHocTap"
+        android:usesCleartextTraffic="true">
+        <activity android:name="Admin.Home_Page_Admin"></activity>
+        <activity android:name="Students.Home_Page_Student" />
+        <activity android:name="Teachers.Home_Page_Teacher" />
+        <activity android:name="Teachers.TuDiemDanh" />
+        <activity android:name="Teachers.Ban_taking_finaltest" />
+        <activity android:name="Admin.Register_Account_Admin" />
+        <activity android:name="Admin.Index_Admin" />
+        <activity android:name="Students.MyClass" />
+        <activity android:name=".ChatRoom" />
+        <activity android:name="Teachers.ChangeInforSubject" />
+        <activity
+            android:name="Teachers.ClassSubject"
+            android:label="Lớp Học" />
+        <activity android:name="Teachers.ChangeInformationTeacher" />
+        <activity android:name="Students.ChangeInformationStudent" />
+        <activity
+            android:name=".ChangePasswordAccount"
+            android:label="Đổi mật khẩu" />
+        <activity android:name=".Register" />
+        <activity
+            android:name="Students.List_My_Class"
+            android:label="Student Interface" />
+        <activity
+            android:name="Teachers.ManagerClass"
+            android:label="Teacher Interface" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

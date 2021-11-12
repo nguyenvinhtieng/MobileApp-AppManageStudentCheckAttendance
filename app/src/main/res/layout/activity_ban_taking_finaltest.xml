@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="Teachers.Ban_taking_finaltest">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/backclass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_large_blue"/>
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:text="Danh Sách Học Sinh Bị Cấm Thi"
+            android:textAlignment="center"
+            android:textColor="#F85454"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/liststudent"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp"/>
+    <Button
+        android:id="@+id/indanhsach"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_toast_corners"
+        android:text="In danh sách"/>
+</LinearLayout>

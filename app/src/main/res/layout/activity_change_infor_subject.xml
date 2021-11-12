@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="clip_vertical"
+    tools:context="Teachers.ChangeInforSubject">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Môn Học :"/>
+        <EditText
+            android:id="@+id/classnamec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên Môn Học"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số Buổi Học :"/>
+        <TextView
+            android:id="@+id/numshift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="1"/>
+        <EditText
+            android:id="@+id/classtotalc"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số Buổi Học"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm ghi chú :"/>
+        <EditText
+            android:id="@+id/classnotec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ghi chú"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnchangeifsubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>

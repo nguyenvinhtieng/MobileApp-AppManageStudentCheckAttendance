@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Chỉnh sửa thông tin lớp học"
+        android:id="@+id/changeifsubject"/>
+    <item android:title="Cuộc trò chuyện" android:id="@+id/chatrooom"/>
+    <item android:title="Điểm danh" android:id="@+id/diemdanh"
+        app:showAsAction="always">
+        <menu>
+            <item android:title="Tự Điểm Danh" android:id="@+id/tudiemdanh"></item>
+            <item android:title="Điểm Danh Bằng Mã" android:id="@+id/diemdanhbangma"></item>
+        </menu>
+    </item>
+    <item android:title="Danh sách cấm thi" android:id="@+id/danhsachcamthi"/>
+    <item android:title=""
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="always"
+        android:id="@+id/addstudent"/>
+    <item android:title="Xóa lớp học !"
+        android:tooltipText="@android:string/cut"
+        android:icon="@drawable/ic_baseline_delete_forever_24"
+        android:id="@+id/deleteclass"/>
+</menu>
