@@ -29,10 +29,27 @@ Created by: Nguyễn Vinh Tiếng
 ![image](https://user-images.githubusercontent.com/79965595/141603030-8669b170-3116-441c-a3ce-4c0bb643bfd0.png)
 
 
-# chat view (student)
-![image](https://user-images.githubusercontent.com/79965595/141603053-c38132b4-24db-49b1-95ef-7328fb8a2168.png)
+# chat view (student + teacher + admin)
+![image](https://user-images.githubusercontent.com/79965595/141603116-8ada972b-873f-46f4-baf8-d17b36e7aefb.png)
 
 
+# Class view (Teacher + Admin)
+![image](https://user-images.githubusercontent.com/79965595/141603090-581363bf-0be2-41d5-a33e-0488c2d3cda4.png)
+
+# Create class modal (Teacher + Admin)
+![image](https://user-images.githubusercontent.com/79965595/141603135-e1f7fb9a-7d39-4df4-a02e-08a9dad0a5c9.png)
+
+# Methods check attendance
+![image](https://user-images.githubusercontent.com/79965595/141603155-051ca903-f5fc-4daf-9970-65f9175e0ce8.png)
+
+# Students enter the wrong attendance code more than 3 times 
+![image](https://user-images.githubusercontent.com/79965595/141603185-dfc23554-f51a-4ae5-9421-51eca2c8f2a7.png)
+
+# Notice that students are banned from taking the exam because they are absent from the scheduled time 
+![image](https://user-images.githubusercontent.com/79965595/141603264-352491bc-863d-4da3-83aa-e2fcecbe7ec5.png)
+
+## Description: 
+ 
 
 
 
