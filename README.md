@@ -48,7 +48,12 @@ Created by: Nguyễn Vinh Tiếng
 # Notice that students are banned from taking the exam because they are absent from the scheduled time 
 ![image](https://user-images.githubusercontent.com/79965595/141603264-352491bc-863d-4da3-83aa-e2fcecbe7ec5.png)
 
-## Description: 
+## Description
+Application for students and teachers in learning management, teachers and admins can create classes, edit class information and add students to their classes, in addition teachers can also grade Attendance by 2 methods are code attendance and manual attendance.
++ Attendance by code: the teacher creates a attendance code, students need to enter the correct attendance code to be able to take attendance, if students enter this code incorrectly more than 3 times, they will be missed.
++ Manual attendance: Students choose the students present and choose attendance for that student
+
+Chat feature: To serve the exchange of information, students and teachers can exchange messages through public chat rooms.
  
 
 
